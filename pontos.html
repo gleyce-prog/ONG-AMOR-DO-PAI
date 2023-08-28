@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="all">
+    <meta name="google" content="translate">
+    <meta name="google-site-verification" content="all">
+    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
+    <title>Projeto</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><strong><a href=".nome">HOME</a></strong></li>
+            <li><strong><a href="#sobre">ABOUT US</a></strong></li>
+            <li><strong><a href="#">CONTACT</a></strong></li>
+        </ul>
+    </div>
+    
+    <h1 class="nome">PROJETO AMOR DO PAI</h1>
+    <p class="fazer">Assistência à mães gestantes, bebês , crianças e adolescentes.</p>
+    <section>
+        <img src="img/673.jpg" width="100%" height="720px" 
+        onmouseover="this.src='img/50ccbe95c33ada84222193c30c6be20b.jpg'"
+        onmouseout="this.src='img/673.jpg'">
+    </section>
+    <br/><br/><hr><br/><br/><br/><br/>
+    <div class="sobre">
+        <img class="projeto" src="img/20_05_2022 13_40_10.png" width="45%" width="35%" align="left">
+        <h1 class="subtitulo" align="left">Projeto Amor do Pai</h1>
+        <h2>Missão</h2>
+        <p>Promover a assistência social com carácter filantrópico, satisfazendo a necessidade de mães, bebês e crianças carentes</p>
+        <h2>Visão</h2>
+        <p>Promover transformação social em mães, bebês e crianças em situação de vulnerabilidade, oferecendo enxovais, roupas e assistência espiritual.</p>
+        <h2>Valores</h2>
+        <p>Amor e Carinho</p>
+    </div>
+    <br/><br/><hr><br/><br/>
+    <div class="contato">
+        <h2>Contato</h2>
+        <form action="exibir-dados.php" method="post"> 
+        <fieldset>
+            <legend>Ajude o Projeto Amor do Pai</legend>
+            <br/>
+            <input type="text" size="20" name="nome" maxlength="20" placeholder="Nome" required />
+            <br/><br/>
+            <input type="text" size="20" name="sobrenome" maxlength="20" placeholder="Sobrenome" required />
+            <br/><br/>
+            <input type="email" name="email" placeholder="Email" required/>
+            <br/><br/>
+            <input size="4" name="pais" type="telefone" placeholder="País" required pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">  
+            <input size="15" name="numero" type="telefone" placeholder="Telefone" required pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+            <br/><br/>
+            <select placeholder="eu gostaria de:" required="required" >
+                <option value="Eu gostaria de:" name="opcoes">Eu gostaria de:</option>
+                <option value="Agendar uma visita" name="opcoes">Agendar uma visita</option>
+                <option value="Fazer uma doação" name="opcoes">Fazer uma doação</option>
+                <option value="Receber kit" name="opcoes">Receber kit</option>
+                <option value="Doar itens" name="opcoes">Doar itens</option>
+                <option value="Voluntário" name="opcoes">Voluntário</option>
+                <option value="Outro" name="opcoes">Outro</option>
+            </select>
+            <br/><br/>
+            <textarea cols="40" rows="5" maxlength="2000" name="mensagem" placeholder="Comentário" required></textarea>
+            <br/><br/>
+            <input type="checkbox" id="Aceito a política" required> 
+            <font style="font-size: 15px;">Eu aceito a Política de Privacidade</font> 
+            <br/><br/>
+            <input type="submit" value="Enviar" class="enviar"/>
+        </fieldset>
+        </form>
+        
+    </div>
+
+    <div class="rc-anchor-normal-footer"><div class="rc-anchor-logo-large" role="presentation"><div class="rc-anchor-logo-img rc-anchor-logo-img-large"></div></div><div class="rc-anchor-pt"><a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a><span aria-hidden="true" role="presentation"> - </span><a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a></div></div>
+</body>
+</html>
+
